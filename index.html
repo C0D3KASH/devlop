@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <title>css website</title>
+</head>
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+        <li><a href="">Home</a></li>
+        <li><a href="">News</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">About</a></li>
+        <li class="topnav-right"><a href="">Sign up</a></li>
+        <li class="topnav-right"><a href="gignin">Sign in</a></li>
+        <li class="dropdownIcon"><a href="javascript:void(0)" onclick="dropdownMenu()">&#9776;</a></li>
+    </ul>
+</nav>
+<section class="container" id="section-1-gradient" >
+    <div class="row">
+        <div class="col-6 ">
+            <div class="leftSide-col">
+                <h1 class="large">Crazy Radness</h1>
+                <h1 class="large">Made for Devsloper</h1>
+            </div>
+            <form action="#">
+                <div class="leftSide-col">
+                    <h2>Username</h2>
+                    <input type="text" class="inputbox" placeholder="User Name" name="username">
+                    <h2>Passowrd</h2>
+                    <input type="text" class="inputbox" placeholder="Password" name="username"> 
+                </div>
+            </form>
+        </div>
+        <div class="col-6">
+            <div class="rightside-col">
+                <div class="videoContainer ">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/zbtfswOUm6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+<header>
+    <h1 class="section-2-header">The Standards of Awesomeness</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="images/devicon.png" alt="" >
+                    </div>
+                    <label for="">Chat With Me</label>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard   </p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="images/devicon.png" alt="" >
+                    </div>
+                    <label for="">Learning to Code</label>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  </p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="images/devicon.png" alt="" >
+                    </div>
+                    <label for="">Build an Empire</label>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard   </p>
+                </div>
+            </div>
+    
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="learnMore">Learn More</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <article>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos cupiditate in necessitatibus, ad repellat, beatae error accusantium consectetur qui consequuntur deleniti itaque velit excepturi iste optio alias harum fugiat doloremque? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt asperiores quod, ipsa, alias dignissimos aliquam sit eligendi architecto consequatur autem officiis nihil doloremque vero culpa vel officia iste recusandae odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vitae deleniti fugiat autem consequatur, sed sint maxime omnis rerum maiores odit aliquam perferendis molestiae pariatur ut. Nemo atque ipsum dignissimos!
+                    </p>
+                </article>
+            </div>
+            <div class="col-">
+                <div class="slopeicon">
+                    <img src="images/8.1 iOS_Slope.png.png" alt="slope image for ios">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<footer class="footsy">
+    <div class="container">
+        <div class="row">
+            <div class="col-3 mobileStack">
+                <h1>company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+                <h1>company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+                <h1>company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+                <h1>company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blogs</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+   
+
+
+
+<script>
+    function dropdownMenu(){
+        var x = document.getElementById("dropdownClick");
+        if(x.className === "topnav"){
+            x.className += " responsive";
+        } else {
+            x.className ="topnav";
+        }
+    }
+</script>
+</body>
+</html>
